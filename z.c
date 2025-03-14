@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+struct Person
+{
+    char* name;
+    int age;
+};
+
+
 int factorial(int*);
 int swap(int*, int*);
 void twice(size_t, int[]);
